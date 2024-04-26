@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    position: fixed;
+    min-height: 15vh;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul{
+    position: absolute;
+    left: 30px;
+    list-style-type: none;
+}
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+nav ul img{
+    height: 15vh;
+}
+#one{
+    position: absolute;
+    top: 50px;
+    left: 500px;  
+}
+#two{
+    position: absolute;
+    top: 50px;
+    left: 620px;
+}
+#four{
+    position: absolute;
+    top: 50px;
+    left: 750px;
+}
+#five{
+    position: absolute;
+    top: 50px;
+    left: 870px;
+}
+#six{
+    position: absolute;
+    top: 50px;
+    left: 995px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #BEAB76;
+}
+nav ul a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.btn1{
+    position: absolute;
+    left: 1300px;
+    top: 38px;
+    width: 8vw;
+    height: 7vh;
+    color: #BEAB76;
+    background-color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav button:hover{
+    background-color: #BEAB76;
+    color: black;
+}
+.section1{
+    position: relative;
+    background-image: url(./images/Orange\ Juice.jpg);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 130vh;
+}
+.btn2{
+    position: absolute;
+    left: 700px;
+    top: 430px;
+    z-index: 1;
+    filter: brightness(100%);
+}
+.btn2 button{
+    height: 10vh;
+    width: 10vw;
+    background-color: #BEAB76;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.section2{
+    position: relative;
+    min-height: 150vh;
+    font-size: 2rem;
+    line-height: 1.1;
+}
+.img1{
+    position: absolute;
+    left: 900px;
+    top: 30px;
+}
+.word1{
+    position: absolute;
+    left: 250px;
+    width: 27vw;
+    margin-top: 99px;
+    border: 1px solid gold;
+}
+.img2{
+    position: absolute;
+    left: 250px;
+    top: 500px;
+}
+.word2{
+    position: absolute;
+    left: 800px;
+    top: 550px;
+    width: 27vw;
+    border: 1px solid gold;
+}
+.img3{
+    position: absolute;
+    left: 900px;
+    top: 950px;
+}
+.word3{
+    position: absolute;
+    left: 250px;
+    width: 27vw;
+   top: 1000px;
+    border: 1px solid gold;
+}
+.img4{
+    position: absolute;
+    left: 250px;
+    top: 1400px;
+}
+.word4{
+    position: absolute;
+    left: 800px;
+    top: 1450px;
+    width: 27vw;
+    border: 1px solid gold;
+}

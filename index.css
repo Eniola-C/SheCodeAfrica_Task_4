@@ -1,0 +1,379 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html{
+   font-size: 62.5%;
+}
+header{
+    position: fixed;
+    min-height: 15vh;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background-color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+nav ul{
+    position: absolute;
+    left: 30px;
+    list-style-type: none;
+}
+#logo{
+    position: absolute;
+    top: 10px;
+    left: 50px;
+}
+nav ul img{
+    height: 15vh;
+}
+#one{
+    position: absolute;
+    top: 50px;
+    left: 500px;  
+}
+#two{
+    position: absolute;
+    top: 50px;
+    left: 620px;
+}
+#four{
+    position: absolute;
+    top: 50px;
+    left: 750px;
+}
+#five{
+    position: absolute;
+    top: 50px;
+    left: 870px;
+}
+nav ul a{
+    text-decoration: none;
+    color: #BEAB76;
+}
+nav ul a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.btn1{
+    position: absolute;
+    left: 1300px;
+    top: 38px;
+    width: 7vw;
+    height: 7vh;
+    color: #BEAB76;
+    background-color: white;
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding: 5px;
+    border-radius: 5px;
+}
+nav button:hover{
+    background-color: #BEAB76;
+    color: black;
+}
+.first{
+    position: relative;
+    min-height: 100vh;
+    background-image: url(./images/pexels-chanwalrus-941861.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    background-attachment: fixed;
+}
+.second{
+    position: relative;
+    min-height: 120vh;
+    border-bottom: 1px solid #beab76 ;
+}
+.word1{
+    position: absolute;
+    top: 50px;
+    left: 675px;
+    font-size: 2.9rem;
+}
+.word2{
+    position: absolute;
+    top: 140px;
+    left: 230px;
+    font-size: 1.9rem;
+    text-align: justify;
+    line-height: 1.8;
+    width: 70vw;
+}
+.third{
+    position: relative;
+    height: 120vh;
+}
+.head2{
+    position: absolute;
+    left: 710px;
+    top: 50px;
+    font-size: 2.9rem;
+}
+.combine{
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 1.8rem;
+}
+.combine img{
+   height: 70vh;
+   width: 20vw;
+}
+.combine button{
+    position: absolute;
+    left: 110px;
+    top: 280px;
+    z-index: 1;
+}
+.combine button:hover{
+    background-color: #BEAB76;
+    color: black;
+}
+.combine a{
+    text-decoration: none;
+    color: #BEAB76;
+}
+.combine a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #beab76;
+}
+.combine2{
+    position: absolute;
+    top: 150px;
+    left: 435px;
+    font-size: 1.8rem;
+}
+.combine2 img{
+   height: 70vh;
+   width: 20vw;
+}
+.combine2 button{
+    position: absolute;
+    left: 80px;
+    top: 280px;
+    z-index: 1;
+    width: 10vw;
+}
+.combine2 button:hover{
+    background-color: #BEAB76;
+    color: black;
+}
+.combine2 a{
+    text-decoration: none;
+    color: #BEAB76;
+}
+.combine2 a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #beab76;
+}
+.combine3{
+    position: absolute;
+    top: 150px;
+    left: 770px;
+    font-size: 1.8rem;
+}
+.combine3 img{
+    height: 70vh;
+    width: 20vw;
+ }
+ .combine3 button{
+     position: absolute;
+     left: 90px;
+     top: 280px;
+     z-index: 1;
+     width: 10vw;
+ }
+ .combine3 button:hover{
+     background-color: #BEAB76;
+     color: black;
+ }
+ .combine3 a{
+    text-decoration: none;
+    color: #BEAB76;
+}
+.combine3 a:hover{
+    text-decoration: none;
+    color: black;
+}
+ .combine4{
+    position: absolute;
+    top: 150px;
+    left: 1100px;
+    font-size: 1.8rem;
+}
+ .combine4 img{
+    height: 70vh;
+    width: 20vw;
+ }
+ .combine4 button{
+     position: absolute;
+     left: 90px;
+     top: 280px;
+     z-index: 1;
+     width: 10vw;
+ }
+ .combine4 button:hover{
+     background-color: #BEAB76;
+     color: black;
+ }
+ .combine4 a{
+    text-decoration: none;
+    color: #BEAB76;
+}
+.combine4 a:hover{
+    text-decoration: none;
+    color: black;
+    background-color: #beab76;
+}
+.fourth{
+    position: relative;
+    min-height: 140vh;
+}
+.head5{
+    position: absolute;
+    top: 100px;
+    left: 43%;
+    font-size: 3.9rem;
+    color: #beab76;
+    font-weight: 700;
+}
+.form{
+    position: absolute;
+    top: 200px;
+    left: 390px;
+}
+#fname{
+    width: 25vw;
+    height: 8vh;
+    font-size: 2rem;
+    margin-top: 20px;
+    padding-left: 10px;
+    outline: none;
+}
+#lname{
+    width: 25vw;
+    height: 8vh;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 2rem;
+    outline: none;
+}
+#email{
+    width: 50.5vw;
+    height: 8vh;
+    margin-top: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 2rem;
+    outline: none;
+}
+#num{
+    width: 50.5vw;
+    height: 8vh;
+    margin-top: 20px;
+    padding-left: 10px;
+    font-size: 2rem;
+    outline: none;
+}
+#message{
+    width: 50.5vw;
+    height: 30vh;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-left: 10px;
+    font-size: 2rem;
+    outline: none;
+}
+.sendus{
+    position: absolute;
+    top: 490px;
+    left: 270px;
+}
+.sendus button{
+    width: 15vw;
+    height: 10vh;
+    color: white;
+    background-color: #beab76;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.sendus button:hover{
+    color: #000;
+    background-color: #beab76;
+}
+.footer{
+    position: relative;
+    height: 80vh;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.getintouch{
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    width: 50vw;
+}
+.top{
+    position: absolute;
+    top: 100px;
+    width: 260vw;
+    left: 950px;
+}
+.top a{
+    text-decoration: none;
+    color: #000;
+}
+.top a:hover{
+    text-decoration: underline;
+    color: #bc8f50;
+}
+.logo2{
+    position: absolute;
+    left: 200px;
+    top: 100px;
+}
+.logo2 img{
+    height: 15vh;
+    width: 20vh;
+}
+.copy{
+    position: absolute;
+    bottom: 10px;
+    left: 640px;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: #000;
+}
+.sticky{
+    position: fixed;
+    bottom: 20px;
+    left: 1380px;
+}
+.sticky button{
+    background-color: #beab76;
+    color: white;
+    width: 10vw;
+    height: 8vh;
+    font-size: 1.4rem;
+    font-weight: 700;
+    border-radius: 10px;
+}
+.sticky button a{
+    text-decoration: none;
+    color: white;
+}
+.icons{
+    position: absolute;
+    left: 1260px;
+    top: 100px;
+    font-size: 3rem;
+    line-height: 1.8;
+}
